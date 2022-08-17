@@ -1,0 +1,14 @@
+@import '../../variables.scss';
+
+.waitingButton {
+  background-color: $waiting;
+}
+
+.inProgressButton {
+  background-color: $inProgress;
+  margin: 0px 12px;
+}
+
+.doneButton {
+  background-color: $done;
+}
