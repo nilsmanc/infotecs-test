@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { MouseEvent, useState } from 'react'
 import { TodoItem } from '../../types/types'
 import Form from '../Form'
 import Item from '../Item'
@@ -8,13 +8,15 @@ import styles from './List.module.scss'
 interface ListProps {
   todos: TodoItem[]
   setTodos: (todos: TodoItem[]) => void
+  resize: (e: MouseEvent) => void
 }
 
-const List: React.FC<ListProps> = ({ todos, setTodos }) => {
+const List: React.FC<ListProps> = ({ todos, setTodos, resize }) => {
   const [request, setRequest] = useState('')
   const addItem = (todo: TodoItem) => {
     setTodos([...todos, todo])
   }
+
   return (
     <div className={styles.list}>
       <SearchForm searchRequest={request} setRequest={setRequest} />
@@ -24,6 +26,9 @@ const List: React.FC<ListProps> = ({ todos, setTodos }) => {
             return <Item todoItem={todo} />
           })}
         </div>
+      </div>
+      <div className={styles.resizer} onMouseDown={resize}>
+        |||
       </div>
       <Form addItem={addItem} />
     </div>

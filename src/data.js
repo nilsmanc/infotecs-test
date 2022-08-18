@@ -1,7 +1,7 @@
 const data = [
   {
     id: 1,
-    title: 'Title',
+    title: 'TitleTitleTitleTitleTitleTitleTitleTitle',
     body: 'Body',
     state: 'completed',
   },
