@@ -1,12 +1,19 @@
 .form {
-  position: sticky;
   grid-area: f;
   background-color: rgb(199, 199, 199);
   border-radius: 12px;
 }
 
-.button {
+.activateButton {
   width: 100%;
+  height: 100%;
+  border-color: gray;
+  box-shadow: 4px 4px 8px 0 gray;
+}
+
+.innerButtons {
+  width: 50%;
+  max-height: 25px;
   border-color: gray;
   box-shadow: 4px 4px 8px 0 gray;
 }

@@ -2,13 +2,15 @@
 
 .waitingButton {
   background-color: $waiting;
+  margin-left: 7px;
 }
 
 .inProgressButton {
   background-color: $inProgress;
-  margin: 0px 12px;
+  margin-left: 7px;
 }
 
 .doneButton {
   background-color: $done;
+  margin-left: 7px;
 }

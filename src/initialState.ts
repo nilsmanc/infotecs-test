@@ -1,0 +1,92 @@
+export const data = [
+  {
+    id: 1,
+    title: 'Renew gym membership',
+    body: 'Call and ask about special offers',
+    state: 'inProgress',
+  },
+  {
+    id: 2,
+    title: 'Grocery',
+    body: 'Buy milk, bread and coffee',
+    state: 'waiting',
+  },
+  {
+    id: 3,
+    title: 'Workout',
+    body: 'Add 3 sets of chest dips and 2 sets of squats to the program',
+    state: 'waiting',
+  },
+  {
+    id: 4,
+    title: 'Discuss project with team',
+    body: 'Discuss how to introduce the project to a customer efficiently',
+    state: 'done',
+  },
+  {
+    id: 5,
+    title: 'Review design',
+    body: 'Take a look at the new project design on work mail',
+    state: 'waiting',
+  },
+  {
+    id: 6,
+    title: 'Call Andrew',
+    body: 'Tell him about my new workout program',
+    state: 'waiting',
+  },
+  {
+    id: 7,
+    title: 'File monthly expenses',
+    body: 'Find the app to calculate my expenses',
+    state: 'waiting',
+  },
+  {
+    id: 8,
+    title: 'Write a blog',
+    body: 'Write a blog about my views on traveling',
+    state: 'inProgress',
+  },
+  {
+    id: 9,
+    title: 'Meeting with Ann',
+    body: 'Decide where to go',
+    state: 'done',
+  },
+  {
+    id: 10,
+    title: 'Study Spanish',
+    body: 'I stopped at 56th page',
+    state: 'waiting',
+  },
+  {
+    id: 11,
+    title: 'Get dentist appointment',
+    body: 'Try to schedule it for the evening',
+    state: 'done',
+  },
+  {
+    id: 12,
+    title: 'Plan birthday event',
+    body: 'Talk to Mary about it',
+    state: 'inProgress',
+  },
+  {
+    id: 13,
+    title: 'Take dog to the vet',
+    body: '12 September, 18:00',
+    state: 'waiting',
+  },
+  {
+    id: 14,
+    title: 'Send project file to the client',
+    body: 'Do not forget to rename it',
+    state: 'inProgress',
+  },
+  {
+    id: 15,
+    title: 'Haircut',
+    body: 'Choose a new one',
+    state: 'done',
+  },
+]

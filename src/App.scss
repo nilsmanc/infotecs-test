@@ -1,7 +1,13 @@
 .AppWrapper {
   display: flex;
-  padding: 100px;
-  height: 95vh;
+  padding: 100px 150px;
+  height: 90vh;
+
+  @media (max-width: 540px) {
+    margin: 0 auto;
+    flex-direction: column;
+    padding: 10px;
+  }
 }
 
 * {

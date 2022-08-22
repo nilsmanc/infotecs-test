@@ -2,13 +2,12 @@ import { State } from '../../types/types'
 import styles from './StateButtons.module.scss'
 
 interface StateButtonsProps {
-  state: State
-  setState: (state: any) => void
+  setState: (state: State) => void
 }
 
-const StateButtons: React.FC<StateButtonsProps> = ({ state, setState }) => {
+const StateButtons: React.FC<StateButtonsProps> = ({ setState }) => {
   return (
-    <div>
+    <div className={styles.align}>
       <button className={styles.waitingButton} onClick={() => setState('waiting')}>
         Waiting
       </button>

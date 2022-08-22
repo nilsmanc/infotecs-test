@@ -1,4 +1,4 @@
-export type State = 'waiting' | 'inProgress' | 'done' | null
+export type State = 'waiting' | 'inProgress' | 'done'
 
 export interface TodoItem {
   id: number
