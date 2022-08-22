@@ -27,7 +27,7 @@ function App() {
   useEffect(() => {
     const raw = localStorage.getItem('todos') as string
     const parsedTodos = JSON.parse(raw)
-    setTodos(parsedTodos)
+    setTodos(parsedTodos || initialState)
 
     if (!raw) {
       localStorage.setItem('todos', JSON.stringify(initialState))
